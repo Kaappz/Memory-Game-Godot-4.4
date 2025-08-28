@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cbkjsirycq6d8"
-path="res://.godot/imported/carta_0.png-2c07dd79555126ce92e7b5d08544bba0.ctex"
+uid="uid://dmcqyrinx385t"
+path="res://.godot/imported/botao_seta.png-2b182a0ca918f2c99385afa682b2c4e8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/carta_0.png"
-dest_files=["res://.godot/imported/carta_0.png-2c07dd79555126ce92e7b5d08544bba0.ctex"]
+source_file="res://sprites/botao_seta.png"
+dest_files=["res://.godot/imported/botao_seta.png-2b182a0ca918f2c99385afa682b2c4e8.ctex"]
 
 [params]
 

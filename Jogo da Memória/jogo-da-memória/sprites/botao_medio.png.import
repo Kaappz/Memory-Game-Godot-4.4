@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cbkjsirycq6d8"
-path="res://.godot/imported/carta_0.png-2c07dd79555126ce92e7b5d08544bba0.ctex"
+uid="uid://vyfrmia7ao5s"
+path="res://.godot/imported/botao_medio.png-26a08c9bbeeeb83e6f9646ecc774a8f5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/carta_0.png"
-dest_files=["res://.godot/imported/carta_0.png-2c07dd79555126ce92e7b5d08544bba0.ctex"]
+source_file="res://sprites/botao_medio.png"
+dest_files=["res://.godot/imported/botao_medio.png-26a08c9bbeeeb83e6f9646ecc774a8f5.ctex"]
 
 [params]
 
