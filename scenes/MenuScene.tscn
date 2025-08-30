@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://jjpqsv303d6n"]
+
+[ext_resource type="Script" uid="uid://dpw4kg8eatmox" path="res://scripts/MenuScene.gd" id="1_21ehr"]
+[ext_resource type="Texture2D" uid="uid://2gfvks07oiof" path="res://sprites/Screen_Menu.jpg" id="2_vk8kl"]
+
+[node name="MenuScene" type="Node2D"]
+script = ExtResource("1_21ehr")
+
+[node name="ScreenMenu" type="Sprite2D" parent="."]
+position = Vector2(581.111, 325.75)
+scale = Vector2(0.611574, 0.611574)
+texture = ExtResource("2_vk8kl")
+metadata/_edit_lock_ = true
+
+[node name="PlayButton" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0)
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 299.0
+offset_top = 464.0
+offset_right = 795.0
+offset_bottom = 572.0
+
+[connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]

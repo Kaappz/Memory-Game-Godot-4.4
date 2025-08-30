@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://dw83shppjd78h"]
+
+[ext_resource type="Script" uid="uid://ckfdccni7mfv5" path="res://scripts/story.gd" id="1_md1pp"]
+[ext_resource type="Texture2D" uid="uid://6m7hi012kwq2" path="res://sprites/StoryText.jpeg" id="2_wq8l7"]
+[ext_resource type="Texture2D" uid="uid://dmcqyrinx385t" path="res://sprites/botao_seta.png" id="3_of347"]
+
+[node name="Story" type="Node2D"]
+script = ExtResource("1_md1pp")
+
+[node name="Text" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+scale = Vector2(0.72045, 0.720801)
+texture = ExtResource("2_wq8l7")
+
+[node name="ContinueButton" type="Button" parent="."]
+offset_left = 1132.0
+offset_top = 633.0
+offset_right = 1500.0
+offset_bottom = 1001.0
+rotation = 3.14159
+scale = Vector2(0.3, 0.3)
+focus_mode = 0
+icon = ExtResource("3_of347")
+flat = true
+
+[connection signal="pressed" from="ContinueButton" to="." method="_on_continue_button_pressed"]

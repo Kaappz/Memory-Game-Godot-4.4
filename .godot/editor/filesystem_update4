@@ -1,0 +1,8 @@
+res://scenes/initial_cutscene.tscn
+res://scripts/initial_cutscene.gd
+res://scenes/initialCutscene.tscn
+res://scenes/story.tscn
+res://scenes/MenuScene.tscn
+res://scenes/menu_scene.tscn
+res://scenes/GameManagerNormal.tscn
+res://scripts/story.gd
